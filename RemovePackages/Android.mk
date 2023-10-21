@@ -4,9 +4,9 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES := \
-    MusicFX \
-    arcore \
+LOCAL_OVERRIDES_PACKAGES := arcore \
+    DevicePolicyPrebuilt \
+    GoogleFeedback \
     MyVerizonServices \
     Ornament \
     SafetyHubPrebuilt \
@@ -16,10 +16,12 @@ LOCAL_OVERRIDES_PACKAGES := \
     TurboPrebuilt \
     Tycho \
     Videos \
+    WellbeingPrebuilt \
     YouTube \
     YouTubeMusicPrebuilt \
     PixelWallpapers2021 \
     PixelLiveWallpaperPrebuilt \
+    DerpSetupWizard \
     Stk
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
