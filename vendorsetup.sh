@@ -6,3 +6,6 @@ git clone https://github.com/RealmeGTNeo3T-Devs/android_kernel_realme_sm8250.git
 
 echo "Cloning oplus hals"
 git clone https://github.com/RealmeGTNeo3T-Devs/android_hardware_oplus.git hardware/oplus -b test-14
+
+echo "Cloning Viper4Android repo"
+git clone https://github.com/swiitch-OFF-Lab/packages_apps_ViPER4AndroidFX.git packages/apps/ViPER4AndroidFX
