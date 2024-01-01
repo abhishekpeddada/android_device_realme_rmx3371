@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/spartan/device.mk)
 
 # Inherit some common DerpFest stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Rom Stuff
 SYSTEM_OPTIMIZE_JAVA := true
@@ -29,8 +29,9 @@ TARGE_SUPPORTS_BLUR := true
 SUPERIOR_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_HAS_UDFPS := true
 
-PRODUCT_NAME := superior_spartan
+PRODUCT_NAME := arrow_spartan
 PRODUCT_DEVICE := spartan
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme

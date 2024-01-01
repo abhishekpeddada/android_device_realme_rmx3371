@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_spartan.mk
+    $(LOCAL_DIR)/arrow_spartan.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_spartan-user \
-    superior_spartan-userdebug \
-    superior_spartan-eng
+    arrow_spartan-user \
+    arrow_spartan-userdebug \
+    arrow_spartan-eng
