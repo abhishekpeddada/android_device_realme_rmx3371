@@ -1,5 +1,8 @@
 # Display
 persist.sys.brightness.low.gamma=true
 
+# Maintainer
+ro.spos.maintainer=abhix202
+
 # Graphics (Adreno)
 ro.zygote.disable_gl_preload=1
