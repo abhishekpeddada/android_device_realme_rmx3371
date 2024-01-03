@@ -90,4 +90,7 @@
 
     <!-- Whether to enable Lineage Health Service -->
     <bool name="config_lineageHealthSupported">true</bool>
+
+   <!-- LiveDisplay -->
+   <bool name="config_enableLiveDisplay">true</bool>
 </resources>
